@@ -1,0 +1,8 @@
+server:
+  port: 7777
+  ssl:
+    key-store: classpath:minnu.jks
+    key-store-type: JKS
+    key-store-password: password
+    key-alias: spring-https
+    key-password: password
